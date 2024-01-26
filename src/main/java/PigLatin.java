@@ -32,8 +32,9 @@ public class PigLatin {
       if (sWord.substring(i, i+1).equals("a") || sWord.substring(i, i+1).equals("e") || sWord.substring(i, i+1).equals("i")|| sWord.substring(i, i+1).equals("o")|| sWord.substring(i, i+1).equals("u")) {
       return i;
     }
-      return -1;
+      
     }
+	    return -1;
     }
     public String pigLatin(String sWord) {
 	    if(findFirstVowel(sWord) == -1) 
